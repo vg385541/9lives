@@ -1,0 +1,975 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- cookiebanner start -->
+        <!--stopindex-->
+
+                                    
+
+    <!--startindex-->
+
+
+                <title>A History of Cats in the White House | 9Lives®</title>
+        <meta property="page_type" content="article" />
+<meta property="og:image " content="https://p-cdn6pet.jmsinf.com/assets/profilejms/logos/9-Lives-200px.png" />
+<meta property="og:title" content="A History of Cats in the White House | 9Lives®" />
+<meta name="description" content="Americans love kitties, including many U.S. Presidents. Check out our history of presidential cats." />
+<meta property="og:description" content="Americans love kitties, including many U.S. Presidents. Check out our history of presidential cats." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.9lives.com/blog/history-of-cats-in-the-white-house" />
+
+    
+
+    <!--stopindex-->
+
+
+                <link href="https://use.typekit.net/sbv4neh.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/bundles/ninelives/css/styles.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://www.9lives.com/blog/history-of-cats-in-the-white-house" rel="canonical" />
+    
+            <style media="screen">
+<!--
+                                                        
+-->
+</style>
+<style media="screen">
+<!--
+                                                        
+-->
+</style>
+    
+
+                <!--[if lt IE 9]>
+        <script src='/bundles/common/js/ie/html5shiv.js'></script>
+        <script src='/bundles/common/js/ie/respond.min.js'></script>
+        <![endif]-->
+    
+
+        
+                                    <!-- JMS Datalayer Page -->
+<script>
+
+    (function(jmsCommon) {
+
+        let dataLayer = jmsCommon.dataLayer = jmsCommon.dataLayer || {};
+
+        dataLayer.getCookie = function(name) {
+            let cookie = {};
+
+            document.cookie.split(';').forEach(function(item) {
+                let [key,value] = item.split('=');
+                cookie[key.trim()] = value;
+            });
+            return cookie[name];
+        };
+
+        dataLayer.setCookie = function(name, value, days = 1, path = '/') {
+            let expires = new Date(Date.now() + (days * 24 * 60 * 60 * 1000)).toUTCString();
+            document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=' + path
+        };
+
+        dataLayer.deleteCookie = function(name, value, path = '/') {
+            document.cookie = name + '=' + encodeURIComponent(value) + '; expires=Thu, 01 Jan 1970 00:00:00 UTC' + '; path=' + path
+        };
+
+        dataLayer.language = "en";
+
+        dataLayer.getPageCategory = function(pageCategory) {
+
+            let category = null;
+
+            if( pageCategory && typeof pageCategory !== 'undefined' ){
+                category = pageCategory;
+            }
+
+            return category;
+        };
+
+        dataLayer.getCategoryPageName = function(template) {
+            let pageName = "(not available)";
+                                                pageName = "a history of cats in the white house";
+                                        return pageName;
+        };
+
+        dataLayer.categoryTemplateCheck = false;
+        dataLayer.pageCategoryTemplates = ["acp", "acnp", "pcp", "pcnp", "rcp", "rcnp", "icp", "icnp", "remix"];
+        dataLayer.checkForCategoryView = function() {
+            let definedPageTemplate = false;
+                            definedPageTemplate = 'adp';
+                        if (definedPageTemplate) {
+                dataLayer.pageCategoryTemplates.forEach(pageCategoryTemplate => {
+                    if (pageCategoryTemplate === definedPageTemplate) {
+                        dataLayer.categoryTemplateCheck = definedPageTemplate;
+                    }
+                });
+                if (dataLayer.categoryTemplateCheck) {
+                    window.dataLayer.push({
+                        event: 'category view',
+                        categoryInfo: {
+                            category: dataLayer.getCategoryPageName(dataLayer.categoryTemplateCheck),
+                            url: window.location.pathname,
+                            type: dataLayer.categoryTemplateCheck
+                        }
+                    });
+                }
+            }
+        };
+
+        dataLayer.page = function() {
+
+            window.dataLayer = window.dataLayer || [];
+
+            let pageCategory = {
+                siteSection: 'uncategorized',
+                pageTemplate: 'uncategorized'
+            };
+
+                            pageCategory.siteSection = 'articles';
+            
+                            pageCategory.pageTemplate = 'adp';
+            
+            let params = new URLSearchParams(window.location.search);
+
+            let pageInfo = {
+                brand: "9\u0020lives",
+                language: "en",
+                //geoRegion: 'us',
+                //countrySite: 'global-us',
+                errorPage: 'false',
+                pageName: document.title.toLowerCase(),
+                queryString: params.toString() || '(not available)',
+                pagePath: window.location.pathname
+            };
+
+            let source = dataLayer.getCookie('jmsSource');
+            let medium = dataLayer.getCookie('jmsMedium');
+            let campaign = dataLayer.getCookie('jmsCampaign');
+            let statusCode = dataLayer.getCookie('jmsHttpStatusCode');
+
+            if (statusCode){
+                pageInfo.errorPage = statusCode;
+                dataLayer.deleteCookie('jmsHttpStatusCode', '');
+            }
+
+            if(!source || source === '' || source === 'null') {
+                if(params.has('utm_source')) {
+                    source = params.get('utm_source').toLowerCase();
+                    dataLayer.setCookie('jmsSource', source);
+                    pageInfo.firstsource = dataLayer.getCookie('jmsSource');
+                }
+                else {
+                    pageInfo.firstsource = '(not available)';
+                }
+            } else {
+                pageInfo.firstsource = dataLayer.getCookie('jmsSource');
+            }
+
+            if(!medium || medium === '' || medium === 'null') {
+                if(params.has('utm_medium')) {
+                    medium = params.get('utm_medium').toLowerCase();
+                    dataLayer.setCookie('jmsMedium', medium);
+                    pageInfo.firstmedium = dataLayer.getCookie('jmsMedium');
+                }
+                else {
+                    pageInfo.firstmedium = '(not available)';
+                }
+            } else {
+                pageInfo.firstmedium = dataLayer.getCookie('jmsMedium');
+            }
+
+            if(!campaign || campaign === '' || campaign === 'null') {
+                if(params.has('utm_campaign')) {
+                    campaign = params.get('utm_campaign').toLowerCase();
+                    dataLayer.setCookie('jmsCampaign', campaign);
+                    pageInfo.firstcampaign = dataLayer.getCookie('jmsCampaign');
+                }
+                else {
+                    pageInfo.firstcampaign = '(not available)';
+                }
+            } else {
+                pageInfo.firstcampaign = dataLayer.getCookie('jmsCampaign');
+            }
+
+            let page = {
+                pageInfo: pageInfo
+            };
+
+            let category = dataLayer.getPageCategory(pageCategory);
+
+            if(category) {
+                page.category = category;
+            }
+
+            let user = {
+                jmsaID: dataLayer.getCookie('jmsa'),
+                gaID: dataLayer.getCookie('_gid'),
+                guid: dataLayer.getCookie('guid')
+            };
+
+            let jmshe = dataLayer.getCookie('jmshe');
+            let jmss = dataLayer.getCookie('jmss');
+            let jmsa = dataLayer.getCookie('jmsa');
+
+            if(jmshe !== null && (typeof jmshe !== 'undefined') && jmshe.length > 1) {
+                user.email_sha256 = jmshe;
+            }
+
+            privacyVariable ='-';
+            if(jmss == null || (typeof jmss == 'undefined') && jmsa !== null) {
+                privacyVariable = 'N';
+            } else if (jmss == "true" && jmsa !== null) {
+                privacyVariable = 'Y';
+            } else {
+                privacyVariable ='-';
+            }
+            user.iabPrivacyString = '1Y' + privacyVariable + '-';
+
+            let blacklist = {
+                "gtm.blacklist": [
+                    "abtGeneric", "ta", "adm", "asp", "awct", "sp", "awc", "awj", "baut", "bb",
+                    "bsa", "cts", "csm", "mpm", "mpr", "gclidw", "cegg", "crto", "html", "img",
+                    "dstag", "flc", "fls", "m6d", "ela", "gcs", "ts", "hjtc", "infinity", "sca",
+                    "k50Init", "ll", "bzi", "ljs", "ms", "mpm", "mpr", "messagemate", "mf", "ta",
+                    "ndcr", "nudge", "okt", "omc", "messagemate", "pa", "pc", "pntr", "placedPixel",
+                    "pijs", "qcm", "qpx", "fxm", "scjs", "scp", "sfc", "sfl", "sfr", "shareaholic",
+                    "svw", "tdlc", "tdsc", "tc", "tdc", "twitter_website_tag", "uslt", "uspt", "vei",
+                    "veip", "vdc", "xpsh", "yieldify"
+                ]
+            };
+
+            var pageView = {
+                event: 'dataLayerReady',
+                page: page,
+                user: user
+            };
+
+            if(jmss == "true") {
+                pageView = Object.assign(pageView, blacklist);
+            }
+
+            window.dataLayer.push(pageView);
+
+        };
+
+        jmsCommon.dataLayer.page();
+        jmsCommon.dataLayer.checkForCategoryView();
+
+
+    })(window.jmsCommon = window.jmsCommon || {});
+
+</script>
+
+<script src='/bundles/common/js/jms/datalayer-events.js'></script>
+<!-- End JMS Datalayer Page -->            
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K5T9KQG');</script>
+<!-- End Google Tag Manager -->
+<script>
+    
+            var _ptg = _ptg || {};
+    _ptg.options = _ptg.options || {};
+
+    
+            
+    </script>
+
+
+    <script src="/bundles/pimcorecore/js/targeting.js" async></script></head>
+<body>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5T9KQG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+        
+
+                
+<header id="header" class="mega-menu navbar navbar-fixed-top">
+    <div class="navbar-header">
+        <button id="main-nav-toggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="logo">
+                                                <a href="/" title="Return to Home">
+                        <img src=""
+                             srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/global/image-thumb__14253__auto_0cd71719cb15a2b1804f6e4ac4b8c49f/9lives-logo-registered.png 1x,
+                                     https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/global/image-thumb__14253__auto_9831a5121b3733b65a9f13eedf72fee4/9lives-logo-registered.png 2x"
+                             alt="">
+                    </a>
+                                    </div><!--/.logo-->
+    </div><!--/.navbar-header-->
+        <div id="main-nav" class="navbar-collapse collapse complex">
+    <ul class="nav navbar-nav">
+                    
+                <li class="dropdown mega-menu-full-width ">
+                    <a href="#"
+                                                 title="Products"                        class="dropdown-toggle" data-toggle="dropdown" role="button"                    >
+                        <span>
+                            Products
+                                                    </span>
+                        <i class="arrow"></i>                    </a>
+                                            <ul class="dropdown-menu">
+                            <li>
+                                <div class="mega-menu-content">
+                                    <ul class="links">
+
+                                        
+                                                                                            <ul class="nav-group">
+                                                    <li class="parent">Form</li>
+
+                                                                                                            <li>
+                                                            <a href="/products/dry-food"
+                                                                                                                                 title="Dry Food"                                                            >
+                                                                Dry Food
+                                                            </a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="/products/wet-food"
+                                                                                                                                 title="Wet Food"                                                            >
+                                                                Wet Food
+                                                            </a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="/products/treats"
+                                                                                                                                 title="Treats"                                                            >
+                                                                Treats
+                                                            </a>
+                                                        </li>
+                                                                                                    </ul>
+                                            
+                                        
+                                                                                            <ul class="nav-group">
+                                                    <li class="parent">Recipe</li>
+
+                                                                                                            <li>
+                                                            <a href="/products/hearty-cuts"
+                                                                                                                                 title="Hearty Cuts"                                                            >
+                                                                Hearty Cuts
+                                                            </a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="/products/meaty-pate"
+                                                                                                                                 title="Meaty Paté"                                                            >
+                                                                Meaty Paté
+                                                            </a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="/products/tender-morsels"
+                                                                                                                                 title="Tender Morsels"                                                            >
+                                                                Tender Morsels
+                                                            </a>
+                                                        </li>
+                                                                                                    </ul>
+                                            
+                                        
+                                                                                            <li class="full">
+                                                    <a href="/products"
+                                                                                                                 title="All Products"                                                    >
+                                                        All Products
+                                                    </a>
+                                                </li>
+                                            
+                                        
+                                    </ul><!--/.links-->
+
+                                                                            <div class="featured-product">
+                                                                                                                                                <div class="row">
+                                                                                                                    <div class="image">
+                                                                <a href="/products/dry-food/9lives-daily-essentials">
+                                                                    <img src=""
+                                                                         srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/products/dry/image-thumb__291__auto_be37fc92ea730e443c9b11b27262b4ff/dry-daily-essentials.png 1x,
+                                                                             https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/products/dry/image-thumb__291__auto_4d2c83da39d8ee2b60d1b54f050d4084/dry-daily-essentials.png 2x"
+                                                                         alt="9Lives Daily Essentials dry cat food"
+                                                                    >
+                                                                </a>
+                                                            </div><!--/.image-->
+                                                                                                                <div class="details">
+                                                            <h3 class="product-name">
+                                                                <a href="/products/dry-food/9lives-daily-essentials">
+                                                                    Daily Essentials
+
+                                                                </a>
+                                                            </h3>
+                                                                                                                        <span class="product-category">Dry Food</span>
+                                                            <a href="/products/dry-food/9lives-daily-essentials" class="btn btn-primary">Learn More</a>
+                                                        </div><!--/.details-->
+                                                    </div><!--/.row-->
+                                                                                                                                    </div><!--/.featured-product-->
+                                    
+                                    <a href="#" class="dropdown-close">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div><!--/.mega-menu-content-->
+                            </li>
+                        </ul><!--/.dropdown-menu-->
+                                    </li>
+            
+                <li >
+                    <a href="/nutrition-care"
+                                                 title="Nutrition &amp; Care"                                            >
+                        <span>
+                            Nutrition &amp; Care
+                                                    </span>
+                                            </a>
+                                    </li>
+            
+                <li >
+                    <a href="/about-us"
+                                                 title="About Us"                                            >
+                        <span>
+                            About Us
+                                                    </span>
+                                            </a>
+                                    </li>
+            
+                <li >
+                    <a href="/morris-story"
+                                                 title="Morris&#039; Story"                                            >
+                        <span>
+                            Morris&#039; Story
+                                                    </span>
+                                            </a>
+                                    </li>
+            
+                <li >
+                    <a href="/blog"
+                                                                                            >
+                        <span>
+                            Blog
+                                                    </span>
+                                            </a>
+                                    </li>
+                        </ul><!--/.navbar-left-->
+            <ul class="nav navbar-nav navbar-right">
+                            <li >
+                    <a href="/products/where-to-buy"
+                                                 title="Where to Buy"                                            >
+                        <span>
+                                                            <i class="fa fa-map-marker "></i>
+                                                                                </span>
+                    </a>
+                                    </li>
+                                            </ul><!--/.navbar-right-->
+    </div><!--/#main-nav -->
+
+
+</header>
+
+    
+
+    <!--startindex-->
+
+
+        <main id="content">
+            
+        <div class="container article-container">
+                            <div class="row">
+                    <figure class="article-detail-hero-image">
+                        <picture>
+                                                            <source media="(min-width:768px)"
+                                        data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11883__auto_da827ab3a1a4c55a1e39d12b4c1fead3/15486_BlogImage_9lives_16CatsInWhiteHouse_Desktop_3640x1550.jpg 1x,
+                                                https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11883__auto_ca296192100e2870444ed9d30c75ae1d/15486_BlogImage_9lives_16CatsInWhiteHouse_Desktop_3640x1550.jpg 2x">
+                                                                                        <source
+                                    data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11885__auto_1ed83f0376910769ccbbe60be170b680/15486_BlogImage_9lives_16CatsInWhiteHouse_Mobile_1536x1550.jpg 1x,
+                                                https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11885__auto_785c5fa8a54e70f957179c97e1d28460/15486_BlogImage_9lives_16CatsInWhiteHouse_Mobile_1536x1550.jpg 2x">
+                                <img alt="A History of Cats in the White House"
+                                     class="lazyload">
+                                                    </picture>
+                                            </figure>
+                </div>
+                        <!-- /.article-detail -->
+            <div class="row">
+                <div class="jms-article-detail">
+                                            <ul class="breadcrumbs article-detail-breadcrumbs">
+
+                                                                                        <li>
+                                    <a href="/">Home</a>
+                                </li>
+                            
+                                                                                        <li> >                                     <a href="/blog">Blog</a>
+                                </li>
+                                                        <li class="current"> &gt; <span>A History of Cats in the White House</span>
+                            </li>
+                        </ul>
+                    
+                                            <h1 class="jms-article-detail-title">A History of Cats in the White House</h1>
+                    
+                    
+                                            <div class="jms-article-detail-teaser-copy"><p>Americans love kitties, including many U.S. Presidents. Check out our history of cats in the White House.</p>
+</div>
+                        <!-- /.article-teaser-copy -->
+                    
+
+                                                                                    
+
+                                        
+
+                                            <div class="brick-foundation">
+                                                        <div class="pimcore_area_jms-container pimcore_area_content"> 
+
+        
+    
+    <style>
+            </style>
+
+
+
+
+    <div class="brick-areaCanvas-1-1971-sizing">
+        
+    <div class="container">
+        <div class="pimcore_area_jms-wysiwyg pimcore_area_content"> 
+
+        
+    
+    <style>
+            </style>
+
+
+
+
+    <div class="brick-areaCanvas-1-containerAreaBlock-4-1971-sizing">
+        
+            <p>When it comes to the White House, cats have been some of our all-time favorite residents. Even though Morris the Cat never lived there—despite running for president in 1988 and 1992—there have been quite a few human presidents with cats in the family (or, as they might see it, cats with human presidents in the family). And many of those First Cats have been (nearly) as purrfect as Morris himself. Here are some of history's most famous presidential cats.</p>
+
+<h2>President Abraham Lincoln (1861-1865)&nbsp;</h2>
+
+<p>Lincoln was the first president to bring felines into the White House. His cats Tabby and Dixie were gifts from Secretary of State William Seward. Lincoln was quite&nbsp;the&nbsp;cat person, even rescuing three motherless kittens while visiting General Grant during the Civil War. He regularly played with kitties to relieve stress during his presidency—a&nbsp;favorite de-stressing technique of cat lovers, even today.&nbsp;</p>
+
+<h2>President Rutherford B. Hayes (1877-1881)&nbsp;</h2>
+
+<p>Like Lincoln, Hayes was a fan of felines. In fact, the first Siamese cat to arrive in the United States was his cat, Siam. Siam was a gift from David B. Sickels, an American diplomat in Bangkok, to First Lady Lucy Hayes. The Hayes' also had a kitty named Piccolomini.&nbsp;</p>
+
+<h2>President Theodore Roosevelt (1901-1909)&nbsp;</h2>
+
+<p>Teddy Roosevelt had an impressive collection of White House pets, including a six-toed cat named Slippers, and Tom Quartz, named for a fictional feline in Mark Twain's Roughing It. Apparently, regal Slippers could be found all over the White House, and would snooze in the hallway outside the banquet hall, where visiting dignitaries had to step around her to enter.&nbsp;</p>
+
+<h2>President Calvin Coolidge (1923-1929)&nbsp;</h2>
+
+<p>The&nbsp;Coolidges&nbsp;owned a menagerie of pets, complete with a few felines. The 30<sup>th</sup> president′s cats included Tiger, Blacky, Bounder, Timmie and even a bobcat named Smoky. Blacky regularly enjoyed cream in a saucer and liked to hang out in the White House elevator. One day, Tiger became lost outdoors, and a radio announcement—a new technology at the time—helped to locate him. Timmie liked to hang out with a family canary perched between his shoulders.&nbsp;</p>
+
+<h2>President Gerald Ford (1974-1977)&nbsp;</h2>
+
+<p>Gerald Ford's daughter Susan&nbsp;brought along Shan Shein, a lovely Siamese cat, to the White House. Although the kitty didn't quite see eye-to-eye with Liberty, the family's golden retriever, she loved to hang out in the Lincoln bedroom, usually under the bed.&nbsp;</p>
+
+<h2>President Jimmy Carter (1977-1981)&nbsp;</h2>
+
+<p>Jimmy Carter's daughter Amy also brought a sweet Siamese cat into the White House. The feline's full name was Misty Malarky Ying Yang—a mouthful that even inspired a song by Gabor Szabo. Misty liked to hang out in Amy's dollhouse and frequently meowed along with the first daughter's violin practice sessions.&nbsp;</p>
+
+<h2>President Bill Clinton (1993-2001)&nbsp;</h2>
+
+<p>Bill Clinton came to the White House with Socks, one of the most well-known and beloved First Kitties. He was so famous that he had a book and song written about him. Later, he even had a website. Socks didn't get along with presidential canine Buddy, though, and eventually went to live with Betty Currie, the president's secretary.&nbsp;</p>
+
+<h2>President George W. Bush (2001-2009)&nbsp;</h2>
+
+<p>George W. Bush brought his adorable family cat India "Willie" Bush to the White House. This ebony beauty liked to spend her days in the presidential library and, like Socks, had her own website. She would also sometimes appear on the "Barneycam" videos taken of presidential pooch Barney.&nbsp;</p>
+
+<h2>President Joe Biden (2021-Present)</h2>
+
+<p>Once a farm cat, Willow Biden quickly rose to fame when she was adopted by President Joe Biden and the First Lady, Dr. Jill Biden. Willow first met Dr. Biden after hopping onto stage in the middle of a campaign speech, and word has it their bond was immediate. The gorgeous, green-eyed gray tabby was adopted at age two and named after Dr. Biden′s hometown of Willow Grove, Pennsylvania.</p>
+
+<h2>Why These Presidential Cats Are Basically Just Like Yours</h2>
+
+<p>As fun as it is to learn about the glamorous lives of presidents′ cats, the truth is, they all stepped into their litterboxes one leg at a time. OK, maybe two legs at a time. You get the idea.</p>
+
+<p>The point is, felines all have the same basic needs — and you don′t have to be commander in chief to give your cat The Good Life. It′s pretty simple, actually: All your cat needs is a good home (White House or not), good health and <a href="https://www.9lives.com/products" target="_blank">good food</a>. And it all starts with a good human like you.</p>
+
+<p>Looking to boost your approval rating with the feline demographic? Check out this Morris-approved <a href="https://www.9lives.com/nutrition-care" target="_blank">cat care Q&amp;A</a>.</p>
+
+    
+    </div>
+
+
+</div>
+    </div><!--/.container-->
+
+    </div>
+
+
+</div>
+                        </div><!--/.brick-foundation-->
+                    
+                    
+                </div><!--.article-detail-->
+                <div class="jms-article-sidenav">
+
+                    <div class="jms-article-detail-social article-social">
+                        <ul class="social">
+                            <li>
+                                <a target="_blank"
+                                   data-type="article"
+                                   href="https://www.facebook.com/dialog/feed?app_id=&display=popup&caption=A%20History%20of%20Cats%20in%20the%20White%20House&description=&picture=&link=https://www.9lives.com/blog/history-of-cats-in-the-white-house&redirect_uri=https://www.9lives.com"
+                                   title="Share this Product on Facebook"
+                                   data-platform="facebook"
+                                   current-url="https://www.9lives.com/blog/history-of-cats-in-the-white-house"
+                                                                                                                                                                                                            data-category="all blogs"
+                                                                                                               data-name="a history of cats in the white house">
+                                    <i class="icon-facebook"></i><span
+                                        class="sr-only">Share this Article on Facebook</span>
+                                </a>
+                            </li>
+                            <li><a target="_blank"
+                                   href="https://twitter.com/intent/tweet?text=A%20History%20of%20Cats%20in%20the%20White%20House&url=https://www.9lives.com/blog/history-of-cats-in-the-white-house"
+                                   title="Tweet this Article"
+                                   data-platform="twitter"
+                                   current-url="https://www.9lives.com/blog/history-of-cats-in-the-white-house"
+                                                                                                                                                                                                            data-category="all blogs"
+                                                                                                               data-name="a history of cats in the white house">
+                                    <i class="icon-twitter" ></i><span class="sr-only">Share this Article on Twitter</span></a></li>
+                            <li><a href="mailto:?subject=Article%20-%20A%20History%20of%20Cats%20in%20the%20White%20House&body=https://www.9lives.com/blog/history-of-cats-in-the-white-house"
+                                   title="Share this Article in an email"
+                                   data-platform="email"
+                                   current-url="https://www.9lives.com/blog/history-of-cats-in-the-white-house"
+                                                                                                                                                                                                            data-category="all blogs"
+                                                                                                               data-name="a history of cats in the white house">
+                                    <i class="icon-email"></i><span class="sr-only">Email this Article</span></a></li>
+                            <li><a href="javascript:window.print()"
+                                   data-platform="print"
+                                   current-url="https://www.9lives.com/blog/history-of-cats-in-the-white-house"
+                                                                                                                                                                                                            data-category="all blogs"
+                                                                                                               data-name="a history of cats in the white house">
+                                    <i class="icon-print"></i><span class="sr-only">Print this Article</span></a></li>
+                        </ul>
+                    </div><!--/.article-detail-social-->
+
+                    
+                </div><!-- /.sidenav -->
+            </div><!--/.row-->
+
+                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                            <h3 class="jms-articles-related-article-detail-title">Related Articles</h3>
+                    
+                    <div class="jms-article-grid data-layer-broadcast" data-broadcast-type="article">
+                        <div class="jms-articles">
+                                                                                                <div class="jms-article">
+                                        
+
+        
+                                                            
+                                            
+    <a href="/blog/weird-things-happy-cats-do"
+       data-type="Article"
+       data-name="weird things happy cats do and why"
+       data-context="adp"
+       data-category="all blogs"
+    >
+                    <picture>
+<source media="(min-width:1400px)" type="image/jpeg" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11857__auto_7d936a0abe8c2546a4b5a9130bd22beb/15486_BlogImage_9lives_7WeirdThings_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11857__auto_45d6535005c9a4551cd7cc7d78bc21b2/15486_BlogImage_9lives_7WeirdThings_List_700x500.jpg 2x">
+<source media="(min-width:375px)" type="image/jpeg" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11857__auto_c41957ae6febad517474bb96fcc75436/15486_BlogImage_9lives_7WeirdThings_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11857__auto_0861875af95e53ea23c6d3e61d0c10b6/15486_BlogImage_9lives_7WeirdThings_List_700x500.jpg 2x">
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11857__auto_c41957ae6febad517474bb96fcc75436/15486_BlogImage_9lives_7WeirdThings_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11857__auto_0861875af95e53ea23c6d3e61d0c10b6/15486_BlogImage_9lives_7WeirdThings_List_700x500.jpg 2x" alt="Weird Things Happy Cats Do and Why Photo" class="article-image lazyload">
+</picture>
+                            <span class="jms-article-name">Weird Things Happy Cats Do and Why</span>
+            </a>
+
+            <div class="jms-article-copy">
+            <p>Our pets do some things that seem wacky. Here is what those behaviors really mean.&nbsp;</p>
+
+        </div><!--/.jms-article-copy-->
+    
+
+                                    </div>
+                                                                                                                                <div class="jms-article">
+                                        
+
+        
+                                                            
+                                            
+    <a href="/blog/clicker-training-cats"
+       data-type="Article"
+       data-name="how to train a cat with clicker training (video)"
+       data-context="adp"
+       data-category="all blogs"
+    >
+                    <picture>
+<source media="(min-width:1400px)" type="image/jpeg" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11890__auto_7d936a0abe8c2546a4b5a9130bd22beb/15486_BlogImage_9lives_18ClickerTraining_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11890__auto_45d6535005c9a4551cd7cc7d78bc21b2/15486_BlogImage_9lives_18ClickerTraining_List_700x500.jpg 2x">
+<source media="(min-width:375px)" type="image/jpeg" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11890__auto_c41957ae6febad517474bb96fcc75436/15486_BlogImage_9lives_18ClickerTraining_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11890__auto_0861875af95e53ea23c6d3e61d0c10b6/15486_BlogImage_9lives_18ClickerTraining_List_700x500.jpg 2x">
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11890__auto_c41957ae6febad517474bb96fcc75436/15486_BlogImage_9lives_18ClickerTraining_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11890__auto_0861875af95e53ea23c6d3e61d0c10b6/15486_BlogImage_9lives_18ClickerTraining_List_700x500.jpg 2x" alt="How to Train a Cat with Clicker Training (Video) Photo" class="article-image lazyload">
+</picture>
+                            <span class="jms-article-name">How to Train a Cat with Clicker Training (Video)</span>
+            </a>
+
+            <div class="jms-article-copy">
+            <p>See how fun and easy cat training can be.&nbsp;&nbsp;</p>
+
+        </div><!--/.jms-article-copy-->
+    
+
+                                    </div>
+                                                                                                                                <div class="jms-article">
+                                        
+
+        
+                                                            
+                                            
+    <a href="/blog/ask-morris-how-to-survive-the-holidays"
+       data-type="Article"
+       data-name="ask morris: how do you survive the holidays?"
+       data-context="adp"
+       data-category="ask morris"
+    >
+                    <picture>
+<source media="(min-width:1400px)" type="image/jpeg" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11869__auto_7d936a0abe8c2546a4b5a9130bd22beb/15486_BlogImage_9lives_11SurvivetheHolidays_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11869__auto_45d6535005c9a4551cd7cc7d78bc21b2/15486_BlogImage_9lives_11SurvivetheHolidays_List_700x500.jpg 2x">
+<source media="(min-width:375px)" type="image/jpeg" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11869__auto_c41957ae6febad517474bb96fcc75436/15486_BlogImage_9lives_11SurvivetheHolidays_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11869__auto_0861875af95e53ea23c6d3e61d0c10b6/15486_BlogImage_9lives_11SurvivetheHolidays_List_700x500.jpg 2x">
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11869__auto_c41957ae6febad517474bb96fcc75436/15486_BlogImage_9lives_11SurvivetheHolidays_List_700x500.jpg 1x, https://p-cdn6pet.jmsinf.com/tmp/image-thumbnails/9lives/blog/image-thumb__11869__auto_0861875af95e53ea23c6d3e61d0c10b6/15486_BlogImage_9lives_11SurvivetheHolidays_List_700x500.jpg 2x" alt="Ask Morris: How Do You Survive the Holidays? Photo" class="article-image lazyload">
+</picture>
+                            <span class="jms-article-name">Ask Morris: How Do You Survive the Holidays?</span>
+            </a>
+
+            <div class="jms-article-copy">
+            <p>Morris&nbsp;the Cat&nbsp;ponders the challenges of keeping his regular nap schedule during the holiday season.&nbsp;</p>
+
+        </div><!--/.jms-article-copy-->
+    
+
+                                    </div>
+                                                                                    </div>
+                    </div>
+                            
+        </div><!--/.container-fluid-->
+
+    
+    <script>
+            </script>
+
+    </main>
+
+
+    <!--stopindex-->
+
+                
+<footer id="footer">
+    <div class="row">
+        <div class="copyright">
+                        <p>©/TM/<sup>®</sup>&nbsp;Big Heart Pet, Inc.</p>
+
+        </div><!--/.copyright-->
+                    <ul class="social">
+                                    <li><a href="https://www.facebook.com/Morristhe9livescat" data-gtm="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                                                    <li><a href="https://twitter.com/MorrisApproved" data-gtm="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                                                                    <li><a href="https://www.instagram.com/morristhe9livescat/" data-gtm="Instagram" target="_blank"><i class="icon-instagram"></i></a></li>
+                                            </ul><!--/.social-->
+                <div class="navigation">
+            <ul>
+                                    <li>
+                        <a href="/coupons"
+                                                                                        >
+                            <span>Coupons</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="/contact-us"
+                                 target="_self"                                 title="Contact Us"                        >
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.jmsmucker.com/privacy-policy"
+                                 target="_blank"                                 title="Privacy Policy"                        >
+                            <span>Privacy Policy</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="https://consumer-privacy.jmsmucker.com/"
+                                 target="_blank"                                 title="Do Not Sell My Personal Information"                        >
+                            <span>Do Not Sell My Personal Information</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.jmsmucker.com/terms-of-use"
+                                 target="_blank"                                 title="Terms of Use"                        >
+                            <span>Terms of Use</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="/site-map"
+                                                                 title="Site Map"                        >
+                            <span>Site Map</span>
+                        </a>
+                    </li>
+                            </ul>
+        </div><!--/.navigation-->
+    </div><!--/.row-->
+</footer>
+    
+        
+                
+                                    
+        
+        
+                <script>
+    //<!--
+            var script = document.createElement('script');
+
+        script.type = "text/javascript";
+        script.src = "https://wampa.jmsinf.com/scripts/wampa.php";
+        document.getElementsByTagName('head')[0].appendChild(script);
+
+    //-->
+</script>
+<script src="/bundles/common/js/jquery/1.12.4/jquery.min.js"></script>
+<script src="/bundles/common/js/bootstrap/3.3.7/bootstrap.min.js"></script>
+<script src="/bundles/common/js/lazysizes/4.1.8/lazysizes.min.js"></script>
+<script src="/bundles/common/js/outdated-browser/1.1.2/outdated-browser.min.js"></script>
+<script src="/bundles/common/js/magnific-popup/1.1.0/magnific-popup.min.js"></script>
+<script src="/bundles/common/js/match-height/0.7.2/match-height.min.js"></script>
+<script src="/bundles/common/js/jquery-validation/1.17.0/jquery.validate.min.js"></script>
+<script src="/bundles/common/js/slick/1.8.1/slick.js"></script>
+<script src="/bundles/common/js/jms/jms.js"></script>
+<script src="/bundles/ninelives/js/scripts.js"></script>
+<script>
+    //<!--
+                (function(jmsCommon) {
+
+                let dataLayer = jmsCommon.dataLayer = jmsCommon.dataLayer || {};
+
+                dataLayer.article = function() {
+
+                    let article = {
+                        name: "a history of cats in the white house",
+                        url: "/blog/history-of-cats-in-the-white-house",
+                        category: "(not available)"
+                    };
+
+                                                                                                                                                                                    
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        event: 'article view',
+                        article: article
+                    });
+                };
+            })(window.jmsCommon = window.jmsCommon || {});
+
+            if(window.addEventListener) {
+                window.addEventListener('load', function () {
+                    jmsCommon.dataLayer.article();
+                });
+            }
+            //-->
+</script>
+<script src="/bundles/common/js/jms/channelAdvisor.js"></script>
+<script>
+    //<!--
+                $(document).ready(function(){
+
+                (function(jms_ca, $) {
+                    jms_ca.iframe = $("#etale-iframe");
+                    jms_ca.contextualIframe = $("#etale-iframe-contextual");
+                    jms_ca.modal = function(version) {
+                        if (version == ""){
+                            $('.etale-container').modal({
+                                'backdrop' : 'static'
+                            });
+                        }
+                    };
+                    jms_ca.contextual = function(version) {
+                        if (version == ""){
+                            jms_ca.contextualIframe.parent().addClass("shown");
+                        }
+                    }
+                })(window.jms_ca = window.jms_ca || {}, jQuery);
+
+                $('.ca-buy-now').click(function(e) {
+                    e.preventDefault();
+                    let self = $(this);
+                    self.blur();
+                    var jmsa_value = 'not_set';
+
+                    // If Where-to-Buy page and version == "contextual"
+                    if ( (typeof whereToBuy !== "undefined") && (typeof whereToBuy.version !== "undefined") && (whereToBuy.version=="contextual") ) {
+                        if (self.data("upc12")) {
+                            jms_ca.contextualIframe.attr("src", "https://where-to-buy.co/widgets/core/BuyOnlineBuyLocal/index.html?pid=12004167&model=" + self.data("upc12") + "&guid=" + jmsa_value);
+                            console.log(" src=" + jms_ca.contextualIframe.attr("src"));
+                        }
+                        jms_ca.contextual('');
+                        if (site.mobile.matches) {
+                            if (self.data("upc12")) {
+                                jms_ca.iframe.attr("src", "https://where-to-buy.co/widgets/core/BuyOnlineBuyLocal/index.html?pid=12004167&model=" + self.data("upc12") + "&guid=" + jmsa_value);
+                                console.log("iframe src=" + jms_ca.iframe.attr("src"));
+                                jms_ca.iframe.focus();
+                            }
+                            jms_ca.modal('');
+                        }
+                    }
+                    else {
+                        if (self.data("upc12")) {
+                            jms_ca.iframe.attr("src", "https://where-to-buy.co/widgets/core/BuyOnlineBuyLocal/index.html?pid=12004167&model=" + self.data("upc12") + "&guid=" + jmsa_value);
+                        }
+                        jms_ca.modal('');
+                    }
+
+                    if (self.attr("id") === "where-to-buy-search") {
+                        // Raise datalayer event for WTB page only
+
+                        // Category get
+                        const categoryOption = document.getElementById('select-category').selectedOptions[0];
+                        let category = categoryOption.innerText.trim().toLowerCase();
+
+                        // Product get
+                        const productOption = document.getElementById('select-product').selectedOptions[0];
+                        const product = productOption.innerText.trim().toLowerCase();
+
+                        window.dataLayer.push({
+                            event: 'formSubmit',
+                            forms: {
+                                formName: 'where to buy',
+                                productCategory: category,
+                                productName: product
+                            }
+                        });
+                    }
+
+                });
+            });
+
+            //-->
+</script>
+                
+    <script>
+        $(document).ready( function() {
+
+            
+            
+                        if (typeof jms.common.loadSequencer.next === 'function') {
+                jms.common.loadSequencer.next();
+            }
+        });
+    </script>
+
+    
+        
+    <div class="etale-container modal">
+        <div class="modal-dialog">
+            <div class="box-wrap">
+                <iframe id="etale-iframe" title="Purchase" data-qa="channel-advisor" src="https://where-to-buy.co/widgets/core/BuyOnlineBuyLocal/index.html?pid=12004167&amp;model=" loading="lazy"></iframe>
+                <a href="#" title="Close" class="x-close"><span class="sr-only">Close</span></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+            </script>
+
+
+        
+        
+        
+        <!-- The J.M. Smucker Company do not remove --></body>
+</html>
